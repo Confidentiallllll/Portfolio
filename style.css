@@ -253,6 +253,49 @@ span {
   color: black;
   transform: scale(1.05);
 }
+/* ---------------- TECHNICAL SKILLS ---------------- */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-category {
+  background: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #b74b4b;
+  width: 300px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #b74b4b;
+}
+
+.skill-category h3 {
+  color: #b74b4b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skill-category p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/* Match responsiveness like services */
+@media (max-width: 995px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 /* ---------------- EDUCATION ---------------- */
 .timeline {
