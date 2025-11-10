@@ -173,19 +173,49 @@
   </section>
 
   <!-- Experience -->
-  <section id="experience">
-    <h2 class="section-title">Experience</h2>
-    <div class="experience-container">
-      <div class="experience-card">
-        <h3>Embedded Firmware Engineer</h3>
-        <p><strong>Company:</strong> L&T Technology Services</p>
-        <p><strong>Duration:</strong> March 2024 – Present</p>
-        <p>
-          Designed and developed embedded firmware for Electronic Trip Units (ETU) used in power distribution systems. Implemented complete protection algorithms — Overload, Short Circuit, Earth Fault, and Thermal — using ADC-based current sensing and time-current characteristic curves for precise fault detection and reliable tripping. Developed a UART-based bootloader to enable firmware upgrades over UART, ensuring safe in-field updates and robust synchronization between bootloader and application. Worked extensively with STM32H723ZG microcontroller, implementing ADC sampling, UART communication, EEPROM data management, and RMS/frequency computation for energy measurement. Focused on real-time performance, optimization, and system reliability through efficient peripheral configuration and firmware validation.
-        </p>
-      </div>
+ <section id="experience">
+  <h2 class="section-title" data-aos="fade-right">Experience</h2>
+  <div class="experience-container">
+
+    <div class="experience-card" data-aos="fade-up">
+      <h3>Embedded Firmware Engineer</h3>
+      <p><strong>Company:</strong> L&amp;T Technology Services</p>
+      <p><strong>Duration:</strong> March 2024 – Present</p>
     </div>
-  </section>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+      <h4>1. Power Distribution Unit (PDU)</h4>
+      <p>
+        Designed and validated embedded firmware for Power Distribution Unit (PDU) systems using STM32H723ZG. 
+        Developed algorithms to compute Voltage, Current, Power (Active, Reactive, Apparent) and Energy (kWh, kVARh, kVAh). 
+        Implemented ADC sampling, UART data logging, and EEPROM data management for accurate power monitoring and reliable data retention. 
+        Focused on real-time performance, calibration, and firmware optimization.
+      </p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+      <h4>2. Electronic Trip Unit (ETU)</h4>
+      <p>
+        Developed embedded firmware for Electronic Trip Unit (ETU) applications used in circuit protection systems. 
+        Implemented protection algorithms including Overload, Short Circuit, Earth Fault, and Thermal Protection, 
+        based on ADC current sensing and time-current characteristics. 
+        Optimized tripping logic and ensured accurate fault detection with real-time processing on STM32 microcontrollers.
+      </p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+      <h4>3. Firmware Upgrade over UART (Bootloader Project)</h4>
+      <p>
+        Designed and implemented a custom UART-based bootloader for firmware upgrades. 
+        Enabled in-field firmware updates without the need for external programmers. 
+        Ensured safe flash memory operations, error checking, and reliable synchronization between bootloader and application firmware. 
+        Streamlined deployment and maintenance for embedded products.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- Contact -->
   <section id="contact" data-aos="fade-up">
