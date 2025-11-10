@@ -329,26 +329,47 @@ span {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
 .experience-card {
   background: #111;
   border-left: 3px solid #b74b4b;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 1.8rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .experience-card h3 {
   font-size: 2rem;
   color: #b74b4b;
+  margin-bottom: 0.5rem;
+  text-align: center; /* Centered title */
+}
+
+/* Center the Company and Duration for the top card only */
+.experience-card:first-child p {
+  text-align: center;
+  color: #ddd;
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
+}
+
+.experience-card h4 {
+  font-size: 1.6rem;
+  color: #e45b5b;
+  margin-bottom: 0.5rem;
 }
 
 .experience-card p {
   font-size: 1.4rem;
   margin-top: 0.5rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #ddd;
 }
+
 
 /* ---------------- CONTACT ---------------- */
 .contact-info {
